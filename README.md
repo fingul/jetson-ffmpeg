@@ -12,5 +12,5 @@ borrow from : https://github.com/Keylost/jetson-ffmpeg
 # install
 
 ```
-bash install.sh
+curl -L https://raw.githubusercontent.com/fingul/jetson-ffmpeg/master/install.sh | bash
 ```
