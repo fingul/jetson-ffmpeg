@@ -3,7 +3,8 @@
 set -x
 set -e
 
-sudo apt-get install -y build-essential
+sudo apt install -y build-essential
+sudo apt install -y nvidia-l4t-jetson-multimedia-api
 sudo apt install -y bzip2 fontconfig libfribidi{0,-dev} gmpc{,-dev} gnutls-bin lame libass{9,-dev} libavc1394-{0,dev} libbluray{2,-dev} libdrm{2,-dev} libfreetype6{,-dev} libmodplug{1,-dev} libraw1394-{11,dev} librsvg2{-2,-dev} libsoxr{0,-dev} libtheora{0,-dev} libva{2,-dev} libva-drm2 libva-x11-2 libvdpau{1,-dev} libvorbisenc2 libvorbis{0a,-dev} libvpx{6,-dev} libwebp{6,-dev} libx11{-6,-dev} libx264-{155,dev} libx265-{179,dev} libxcb1{,-dev} libxext{6,-dev} libxml2{,-dev} libxv{1,-dev} libxvidcore{4,-dev} libopencore-amr{nb0,nb-dev,wb0,wb-dev} opus-tools libsdl2-dev speex v4l-utils zlib1g{,-dev} libopenjp2-7{,-dev} libssh-{4,dev} libspeex{1,-dev}
 
 rm -rf ~/temp_build_ffmpeg/
